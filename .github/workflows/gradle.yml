@@ -16,3 +16,13 @@ jobs:
         run: ./gradlew build
       - name: build docs
         run: ./gradlew dokkaHtml
+      - name: upload jar
+        uses: actions/upload-artifact@v2
+          with:
+            name: docs
+            path: build/libs/*
+      - name: upload docs
+        uses: actions/upload-artifact@v2
+        with:
+          name: docs
+          path: build/dokka/html/**
