@@ -18,7 +18,7 @@ buildscript {
     }
 }
 
-group = "net.neverstopgaming"
+group = "net.pxlgames"
 version = "1.0"
 
 repositories {
