@@ -35,7 +35,7 @@ fun getCommitHash(): String = try {
 object Properties {
 
     @JvmStatic
-    val group = "net.neverstopgaming"
+    val group = "net.pxlgames"
 
     @JvmStatic
     val version = "1.0.0-SNAPSHOT"
