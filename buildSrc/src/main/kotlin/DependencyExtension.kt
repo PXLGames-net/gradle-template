@@ -73,7 +73,7 @@ object Properties {
                 "redis" to "io.lettuce:lettuce-core:6.1.0.RELEASE"
             )
             it["minecraft"] = mutableMapOf(
-                "bukkit" to "com.destroystokyo.paper:paper-api:1.16.5-R0.1-SNAPSHOT",
+                "bukkit" to "org.spigotmc:spigot-api:1.8.8-R0.1-SNAPSHOT",
                 "velocity" to "com.velocitypowered:velocity-api:3.0.1"
             )
             it["simplecloud"] = mutableMapOf(
